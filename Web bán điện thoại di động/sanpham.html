@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/logo.png" type="image/x-icon">
+    <title>Sản Phẩm | PVP</title>
+    <link rel="stylesheet" href="./bootstrap-5.0.21-dist/css/bootstrap-grid.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/main.css">
+    <script src=" ./sanpham.js">
+    </script>
+    <script>window.onload = () => { resultsl(); };</script>
+
+</head>
+
+<body>
+    <script>getHeader()</script>
+    <main>
+        <h1>Dòng sản phẩm VIVO</h1>
+        <div class="grid">
+            <a class="see" href="./timkiem.html" onclick="xem('VIVO')">Xem tất cả <i
+                    class="fa-solid fa-arrow-right"></i></a>
+            <div class="row">
+                <script>getProduct("VIVOV23E");</script>
+                <script>getProduct("VIVOY22S");</script>
+                <script>getProduct("VIVOY16");</script>
+                <script>getProduct("VIVOV255G");</script>
+                <script>getProduct("VIVOY35");</script>
+            </div>
+        </div>
+        <h1> Các Sản Phẩm OPPO</h1>
+        <div class="grid">
+            <a class="see" href="./timkiem.html" onclick="xem('OPPO')">Xem tất cả <i
+                    class="fa-solid fa-arrow-right"></i></a>
+            <div class="row">
+                <script>getProduct("OPPORENO8");</script>
+                <script>getProduct("OPPOFINDX5");</script>
+                <script>getProduct("OPPORENO7");</script>
+                <script>getProduct("OPPORENO6");</script>
+                <script>getProduct("OPPOA96");</script>
+            </div>
+        </div>
+        <h1> Các Sản Phẩm IPHONE</h1>
+        <div class="grid">
+            <a class="see" href="./timkiem.html" onclick="xem('IPHONE')">Xem tất cả <i
+                    class="fa-solid fa-arrow-right"></i></a>
+            <div class="row">
+                <script>getProduct("IPHONE1164GB");</script>
+                <script>getProduct("IPHONE13PROMAX");</script>
+                <script>getProduct("IPHONE14PROMAX");</script>
+                <script>getProduct("IPHONE14PROMAX2");</script>
+                <script>getProduct("IPHONE14PROMAX256GB");</script>
+            </div>
+        </div>
+        <h1> Các Sản Phẩm NOKIA</h1>
+        <div class="grid">
+            <a class="see" href="./timkiem.html" onclick="xem('NOKIA')">Xem tất cả <i
+                    class="fa-solid fa-arrow-right"></i></a>
+            <div class="row">
+                <script>getProduct("NOKIAG11");</script>
+                <script>getProduct("NOKIAG21");</script>
+                <script>getProduct("NOKIAC31");</script>
+                <script>getProduct("NOKIAC21");</script>
+                <script>getProduct("NOKIAC31128GB");</script>
+            </div>
+        </div>
+    </main>
+    <script>getFooter("Phạm Thanh Phong")</script>
+
+</body>
+
+</html>

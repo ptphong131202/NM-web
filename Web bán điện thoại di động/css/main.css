@@ -1,0 +1,640 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    margin: 0;
+    padding: 0;
+    background-color: #fefefef4;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    /*   background: linear-gradient(rgb(255 255 255), rgb(0 29 173), rgb(8 8 8)); */
+    background: url("https://t4.ftcdn.net/jpg/02/76/08/07/360_F_276080724_hltnCyDjcqAyRtLzDYo3T2jXbBtCD7fl.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: bold;
+    color: red;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.logo {
+    padding-top: 5px;
+    padding-left: 20px;
+}
+
+nav {
+    width: 60%;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 17px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.logo img {
+    height: 60px;
+    border-radius: 50%;
+}
+
+.header_search {
+    margin-right: 20px;
+    margin-top: 12px;
+    text-align: center;
+}
+
+.header_search input {
+    padding: 5px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    border-bottom: 1px solid red;
+    background: transparent;
+    width: 200px;
+    color: white;
+    font-size: 16px;
+}
+
+.header_search i {
+    font-size: 16px;
+    padding: 5px;
+    background-color: red;
+    color: white;
+    border-radius: 2px;
+}
+
+.fa-magnifying-glass {
+    transform: translateX(-6px) translateY(2px);
+}
+
+.fa-cart-shopping {
+    transform: translateY(2px);
+}
+
+nav .open {
+    color: red;
+}
+
+/* main */
+
+main {
+    width: 1024px;
+    max-width: 100%;
+    border: 1px solid #cccc;
+    margin: 0 auto;
+    border-radius: 5px;
+    overflow: hidden;
+    padding-top: 5px;
+    background-color: #f6faff;
+}
+
+/* footer */
+footer {
+    width: 100%;
+    background-color: #fbfbfb;
+    border-top: 0.5px solid #cccc;
+    margin-top: 5px;
+}
+
+footer .col {
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.row-l {
+    display: flex;
+    padding-top: 30px;
+}
+
+footer .col-l {
+    width: 20%;
+}
+
+footer .col li {
+    list-style: none;
+    text-align: center;
+    padding: 10px 0 0 0;
+}
+
+footer .col li a {
+    color: #000;
+    font-size: 12px;
+    text-decoration: none;
+    font-weight: 300;
+
+}
+
+footer .col img {
+    width: 70px;
+    margin-top: 10px;
+}
+
+.footer {
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+.gird {
+    width: 100%;
+    position: relative;
+}
+
+.grid {
+    position: relative;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0;
+}
+
+/* trang chu*/
+.slider {
+    width: 100%;
+    height: 450px;
+}
+
+.nhahang {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.nhahang img {
+    width: 130px;
+    height: 45px;
+    border: 1px solid #cccc;
+    margin: 0 10px;
+    margin-bottom: 20px;
+}
+
+.product {
+    text-align: center;
+    margin-top: 15px;
+    position: relative;
+    top: 0;
+    transition: top linear 0.2s;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    width: 18%;
+}
+
+.product:hover {
+    border: 1px solid red;
+    top: -2px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.product img {
+    width: 100%;
+    height: 170px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.product .name {
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    height: 50px;
+    margin: 10px 0 0 0;
+}
+
+.product .price {
+    color: red;
+    font-size: 16px;
+}
+
+.see {
+    text-align: end;
+    font-size: 14px;
+    color: black;
+    text-decoration: none;
+    transform: translateX(-10px);
+    position: absolute;
+    right: 10px;
+    top: -10px;
+}
+
+.see:hover {
+    color: red;
+}
+
+/*chi tiet*/
+
+.chitiet .left {
+    border-right: 1px solid #ccc;
+}
+
+.chitiet .right {
+    margin: 0 20px;
+
+}
+
+.chitiet .left_left img {
+    width: 478px;
+    height: 380px;
+    margin-left: 8px;
+}
+
+.chitiet .left_right {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    justify-content: space-around;
+    width: 98%;
+}
+
+.chitiet .left_right img {
+    width: 90px;
+    height: 100px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
+.chitiet .name {
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+    padding: 10px 0;
+}
+
+.chitiet .rate {
+    font-size: 16px;
+    display: flex;
+}
+
+.chitiet .name_below {
+    display: flex;
+    justify-content: space-between;
+}
+
+.chitiet .report {
+    font-size: 16px;
+    color: #000;
+
+}
+
+.chitiet .rate_star i {
+    color: yellow;
+}
+
+.chitiet .rate_star span,
+.chitiet .buyed {
+    text-decoration: underline red;
+
+}
+
+.chitiet .danhgia {
+    margin: 0 20px;
+    text-decoration: underline red;
+}
+
+.chitiet .price {
+    display: flex;
+    font-size: 25px;
+    margin-top: 10px;
+    padding: 10px 0;
+    background-color: #cccc;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.chitiet .old_price {
+    margin-right: 20px;
+    margin-left: 10px;
+    font-size: 16px;
+    padding: 0 10px;
+    text-decoration: line-through;
+}
+
+.chitiet .new_price {
+    color: red;
+    padding: 0 10px;
+}
+
+.chitiet td {
+    font-size: 16px;
+}
+
+.chitiet td img {
+    width: 25px;
+    color: red;
+}
+
+.chitiet td i {
+    font-size: 19px;
+}
+
+.chitiet .truck i {
+    color: #cccc;
+}
+
+.chitiet tr {
+    padding: 10px 0;
+}
+
+.chitiet table {
+    margin-top: 10px;
+}
+
+.chitiet table td {
+    padding: 10px 30px 10px 0;
+}
+
+.chitiet .number {
+    display: flex;
+}
+
+.chitiet .number span {
+    padding: 5px 10px;
+    margin-right: 5px;
+    border-radius: 5px;
+
+}
+
+.chitiet .number span:hover {
+    background-color: #ccc;
+}
+
+.chitiet {
+    width: 69.5%;
+    padding-top: 10px;
+}
+
+.chitiet .left,
+.chitiet .right {
+    width: 48%;
+}
+
+.add_cart {
+    font-size: 20px;
+    border: 1px solid red;
+    border-radius: 3px;
+    padding: 10px;
+    background: rgba(241, 180, 187, .1628);
+    width: 200px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.add_cart:hover {
+    background-color: red;
+    color: white;
+}
+
+.chitiet2 {
+    margin-top: 5px;
+}
+
+.shop2 {
+    display: flex;
+    align-items: center;
+}
+
+.shop2 img {
+    width: 100px;
+    text-align: center;
+    border-radius: 50%;
+
+}
+
+.chitiet2 .name_shop {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.chitiet2 .see_shop {
+    font-size: 16px;
+}
+
+.row2 {
+    display: flex;
+}
+
+.coll {
+    width: 30%;
+    margin: 10px;
+}
+
+.coll2 {
+    flex: 1;
+}
+
+.coll2 td {
+    font-size: 18px;
+    padding-left: 25px;
+    padding-top: 20px;
+}
+
+.coll2 td span {
+    color: red;
+}
+
+.chitiet2 table td {
+    font-size: 18px;
+}
+
+.chitiet3 {
+    margin-top: 5px;
+}
+
+.chitiet3 h1 {
+    font-size: 25px;
+    margin: 0;
+    margin-left: 10px;
+}
+
+.chitiet3 table {
+    margin-left: 10px;
+}
+
+.chitiet3 td {
+    font-size: 18px;
+    color: #333;
+    padding: 10px;
+}
+
+.chitiet3 .mota {
+    margin: 0;
+}
+
+.chitiet3 li {
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+.chitiet3 p {
+    font-size: 14px;
+    padding: 10px;
+    margin: 0;
+}
+
+.oppo h1 {
+    font-size: 30px;
+    text-align: center;
+    color: red;
+}
+
+.price {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.price .old_price_pd {
+    font-size: 12px;
+    text-decoration: line-through;
+    color: #000;
+}
+
+.rate {
+    display: flex;
+    justify-content: flex-start;
+    text-align: center;
+    font-size: 16px;
+    padding: 5px;
+}
+
+.star {
+    color: yellow;
+    margin-left: 5px;
+}
+
+.rating {
+    color: red;
+}
+
+.donhang h1 {
+    color: red;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.donhang table {
+    margin: 0 auto;
+}
+
+.donhang table th {
+    font-size: 20px;
+    width: 190px;
+}
+
+.donhang table tbody td {
+    font-size: 16px;
+    text-align: center;
+}
+
+.donhang table img {
+    width: 100px;
+    height: 100px;
+}
+
+.donhang table .x {
+    width: 20px;
+}
+
+.donhang table tfoot td {
+    font-size: 16px;
+}
+
+.header_search {
+    position: relative;
+}
+
+.sl {
+    position: absolute;
+    top: -7px;
+    right: 0;
+    font-size: 12px;
+    color: black;
+    background: white;
+    padding: 5px;
+    border-radius: 50%;
+    font-weight: bold;
+}
+
+.thanhtoan {
+    padding: 5px;
+    font-weight: bold;
+    border-radius: 3px;
+    border: none;
+    margin: 5px 0;
+    border: 1px solid black;
+}
+
+.thanhtoan:hover {
+    background-color: red;
+    border: 1px solid red;
+    color: white;
+}
+
+.link {
+    font-size: 12px;
+    margin-bottom: 20px;
+    color: #000;
+}
+
+.link a {
+    padding-left: 5px;
+    color: #000;
+    text-decoration: none;
+}
+
+.link a:last-child {
+    color: red;
+    padding-left: 5px;
+}
+
+.account {
+    background-color: #eb0000;
+    padding: 5px 20px;
+    border-radius: 50%;
+    color: white;
+    border: 2px solid black;
+}

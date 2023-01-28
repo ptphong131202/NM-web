@@ -1,0 +1,56 @@
+/* Webpath Start */
+
+.webpath{
+    margin-bottom: 20px;
+}
+
+.webpath a{
+    color: #D62828;
+    font-size: 18px;
+    font-weight: 500;
+    padding-left: 10px;
+    white-space: nowrap;
+}
+
+.webpath a:visited{
+    text-decoration: none;
+    border: none;
+}
+
+/* Webpath End */
+
+/* Trang Gioi Thieu Start */
+
+.col-6{
+    margin-bottom: 80px;
+}
+
+.gioithieu-dautrang h1{
+    font-size: 56px;
+}
+
+.gioithieu-dautrang h5{
+    font-size: 36px;
+}
+
+.card-header{
+    font-size: 20px;
+}
+
+.card-body p{
+    font-size: 16px;
+}
+
+.blockquote{
+    font-size: 16px;
+}
+
+.blockquote p{
+    margin-bottom: 0px;
+}
+
+.quote-person{
+    font-size: 14px;
+}
+
+/* Trang Gioi Thieu End */

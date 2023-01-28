@@ -1,0 +1,130 @@
+.dangky {
+  display: flex;
+  align-items: center;
+  margin-right: 30px;
+  margin-bottom: 20px;
+}
+
+.dangky .dangky-content {
+  width: 50%;
+  height: 100%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.dk-img {
+  margin-right: 15px;
+  margin-left: 38px;
+}
+
+.dk-img img {
+  width: 100%;
+}
+
+.dk-img img {
+  display: block;
+  margin-bottom: 10px;
+  margin-top: 30px;
+}
+
+.dk-form-div {
+  position: relative;
+  margin-bottom: 5px;
+  display: inline-block;
+  width: 65%;
+}
+
+.dk-form input {
+  width: 90%;
+  margin: 0 auto 10px;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 8px;
+  background: #eee;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  color: black;
+  font-size: 15px;
+  outline: none;
+  user-select: none;
+}
+
+.dk-form label {
+  color: black;
+  position: absolute;
+  left: 0;
+  padding: 12px;
+  pointer-events: none;
+  font-size: 12px;
+  text-transform: uppercase;
+  transition: 0.3s;
+  letter-spacing: 2px;
+  margin-left: 0;
+  padding: 18px 15px 15px;
+}
+
+.dk-form input:valid+label,
+.dk-form input:focus+label {
+  color: black;
+  transform: translateY(-6px) translateX(10px);
+  font-size: 10px;
+  background: linear-gradient(white, rgba(238, 238, 238, 0.17));
+  padding: 5px;
+  letter-spacing: 2px;
+}
+
+.dk-form textarea {
+  display: block;
+  margin: 0 auto;
+  font-size: 20px;
+  border: 1px solid black;
+  padding: 15px;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+.dk-form-div {
+  margin-bottom: 5px;
+}
+
+.dk-form button {
+  display: block;
+  margin: 20px auto;
+  font-size: 20px;
+  border: 0;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.dk-form button:hover {
+  cursor: pointer;
+  background: silver;
+  color: white;
+}
+
+label {
+  margin-left: 63px;
+  font-size: 21px;
+}
+
+fieldset {
+  border-radius: 10px;
+}
+
+legend {
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 30px;
+  letter-spacing: 2px;
+  padding: 10px;
+}
+
+.singin {
+  font-size: 12px;
+  text-align: center;
+  margin-left: 90px;
+}

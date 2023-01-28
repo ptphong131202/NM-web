@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/logo.png" type="image/x-icon">
+    <title>Trang Chủ | PVP</title>
+    <!-- Lien Ket File -->
+    <link rel="stylesheet" href="./bootstrap-5.0.2-dist/css/bootstrap-grid.css">
+    <link rel="stylesheet" href="./bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/tintuc.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script>window.onload = () => { resultsl(); };</script>
+    <script src="./sanpham.js"></script>
+</head>
+
+<body>
+    <script>getHeader()</script>
+    <!-- Trang Tin Tuc -->
+    <main class="chitiet">
+        <div class="container-fluid">
+            <!-- webpath -->
+            <div class="row">
+                <div class="col-12 webpath">
+                    <a href="trangchu.html">Trang Chủ</a><a href="gioithieu.html">Giới thiệu</a>
+                </div>
+            </div>
+            <!-- tin tuc header -->
+            <div class="row">
+                <div class="col-12 tintuc_header">
+                    <div class="tintuc_header_img">
+                        <img src="img/tintuc/news_hot.svg" alt="">
+                        <a href="tintuc.html">24H Công Nghệ</a>
+                    </div>
+                    <div class="linktintuc">
+                        <a href="tintuc.html">Xem tất cả các tin tức:</a>
+                    </div>
+                </div>
+            </div>
+            <!-- inline menu -->
+            <div class="row">
+                <div class="col-12 inline-menu">
+                    <ul class="news-filter">
+                        <li>
+                            <a href="#">Tin công nghệ</a>
+                        </li>
+                        <li>
+                            <a href="#">Tư vấn công nghệ</a>
+                        </li>
+                        <li>
+                            <a href="#">Đánh giá chi tiết</a>
+                        </li>
+                        <li>
+                            <a href="#">Tư vấn chọn mua</a>
+                        </li>
+                        <li>
+                            <a href="#">Tin khuyến mãi</a>
+                        </li>
+                        <li>
+                            <a href="#">Mẹo hay công nghệ</a>
+                        </li>
+                        <li>
+                            <a href="#">Hướng dẫn kĩ thuật</a>
+                        </li>
+                        <li>
+                            <a href="#">Video công nghệ</a>
+                        </li>
+                        <li>
+                            <a href="#">Cách kiểm tra máy cũ</a>
+                        </li>
+                        <li>
+                            <a href="#">Tuyển dụng</a>
+                        </li>
+                        <li>
+                            <a href="#">Chính sách bán hàng</a>
+                        </li>
+                        <li>
+                            <a href="#">Đời sống</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- news-main -->
+            <div class="row">
+                <!-- Slide bootstrap start -->
+                <div class="col-9">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="img/tintuc/slidegif.gif" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/tintuc/slide2.png" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/tintuc/silde3.png" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                    <!-- Muc san pham -->
+                    <div class="row muc-san-pham">
+                        <div class="col-12 category-title">
+                            Sản phẩm HOT
+                        </div>
+                        <script>getProductHot("NOKIAC31128GB")</script>
+                        <script>getProductHot("NOKIAG21")</script>
+                        <script>getProductHot("OPPORENO8")</script>
+                        <script>getProductHot("OPPOFINDX5")</script>
+                        <script>getProductHot("IPHONE14PROMAX256GB")</script>
+                        <script>getProductHot("IPHONE14PROMAX128GB")</script>
+                        <script>getProductHot("VIVOV23E")</script>
+                        <script>getProductHot("VIVOY22S")</script>
+                    </div>
+                </div>
+                <!-- Bang tin HOT -->
+                <div class="col-3 news-main-right">
+                    <h3 class="title-news-sale">
+                        Chủ đề hot
+                    </h3>
+                    <ul>
+                        <li>
+                            <a href="">Đừng bỏ qua 5 cách khắc phục iPhone lỗi 5G hiệu quả kinh ngạc trong năm 2022</a>
+                        </li>
+                        <li>
+                            <a href="">Snapdragon 8 Gen 2 ra mắt: Tốc độ xử lý nhanh hơn, hỗ trợ kết nối Wi-Fi 7 | Tin
+                                hot công nghệ</a>
+                        </li>
+                        <li>
+                            <a href="">Thông tin rò rỉ mới nhất về thiết kế Samsung Galaxy A14</a>
+                        </li>
+                        <li>
+                            <a href="">Cách thu nhỏ màn hình laptop giúp thao tác nhanh gọn, dễ thực hiện nhất 2022 |
+                                Mẹo hay công nghệ</a>
+                        </li>
+                        <li>
+                            <a href="">Đánh giá chi tiết Xiaomi Poco M5: Liệu có là phiên bản nâng cấp của Poco M4
+                                5G?</a>
+                        </li>
+                        <li>
+                            <a href="">Đừng bỏ qua 5 cách khắc phục iPhone lỗi 5G hiệu quả kinh ngạc trong năm 2022</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        </div>
+    </main>
+    <script>getFooter("Trần An Phú")</script>
+    <!-- Lien ket bootstrap -->
+    <script src="./bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
